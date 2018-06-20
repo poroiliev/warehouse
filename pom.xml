@@ -84,16 +84,6 @@
 
     </dependencies>
 
-    <profiles>
-        <profile>
-            <!-- Move maven output to other place -->
-            <id>ssd</id>
-            <build>
-                <directory>${env.TMP}/${project.name}/target</directory>
-            </build>
-        </profile>
-    </profiles>
-
     <build>
         <resources>
             <resource>
