@@ -1,0 +1,17 @@
+server:
+  servlet:
+    context-path: /api
+  port: 4242
+
+
+# H2
+spring:
+  h2:
+    console:
+      enabled: true
+
+logging:
+  level:
+    com.task.warehouse: DEBUG
+    root: ERROR
+    org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl: ERROR
